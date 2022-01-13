@@ -49,17 +49,29 @@ content {
 
 #write {
     max-width: 1920px;
-  	margin-top: 40px;
+	min-width: 400px;
   	padding: 30px;
-    padding-bottom: 100px;
-	
-	margin-left: 6%;
-	margin-right: 6%;
+	margin: 40px 6%;
 	background-color :#fff !important;
 	border-radius: 20px;
 	box-shadow: 0px 5px 10px #E799B0;
 
 }
+
+@media all and (max-width: 1200px){
+	#write {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+}
+
+@media all and (max-width: 900px){
+	#write {
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+}
+
 #write > ul:first-child,
 #write > ol:first-child{
     margin-top: 30px;
